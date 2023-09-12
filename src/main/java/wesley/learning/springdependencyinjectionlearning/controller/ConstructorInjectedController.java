@@ -1,7 +1,9 @@
 package wesley.learning.springdependencyinjectionlearning.controller;
 
+import org.springframework.stereotype.Controller;
 import wesley.learning.springdependencyinjectionlearning.services.GreetingService;
 
+@Controller
 public class ConstructorInjectedController {
     private final GreetingService greetingService;
 
