@@ -14,6 +14,7 @@ class SpringDependencyInjectionLearningApplicationTests {
 
     @Autowired
     MyController myController;
+
     @Test
     void testAutowireOfController() {
         System.out.println(myController.sayHello());
